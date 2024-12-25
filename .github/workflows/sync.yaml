@@ -37,8 +37,8 @@ jobs:
 
       - name: 配置Git用户名邮箱
         run: |
-          git config --global user.name "xxx"
-          git config --global user.email "xxx"
+          git config --global user.name "dragon-master"
+          git config --global user.email "jinlongwang122416@gmail.com"
 
       - name: 提交拉取的文档到GitHub仓库
         run: |

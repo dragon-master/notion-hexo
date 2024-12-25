@@ -6,7 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo clean && hexo server",
+    "server": "hexo server",
     "sync:local": "elog sync -e .elog.env",
     "elog:init": "elog init",
     "sync": "elog sync",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@elog/cli": "^0.14.3",
-    "hexo": "^7.0.0",
+    "hexo": "^7.3.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^3.0.0",
